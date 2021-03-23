@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Prueba Cajita Kushki</title>
+       
+            <Title> Prueba de Pagos Kushki</Title>
+            
+        
+    </head>
+    <body>
+        <form id="payment-form">
+            <input placeholder="Card Number" type="text" id="number">
+            <input placeholder="Full Name" type="text" id="name">  
+            <input placeholder="MM" type="text" id="expiry_month">
+            <input placeholder="YY" type="text" id="expiry_year">
+            <input placeholder="CVC" type="text" id="cvc">
+          
+            <button id="submit"  >Pay $14.99</button>
+          </form>
+          
+
+        
+        <script src="https://cdn.kushkipagos.com/kushki.min.js"></script>
+        
+        <script>
+            
+            var kushki = new Kushki({
+            merchantId: '231372b01b654b5eba2ab8e8cfe4a447', // Reemplaza esto por tu Public Key 
+            inTestEnvironment: true, // Configurado en modo prueba
+            });
+            
+        </script>
+        <script src="confirm.js"></script>
+        <script src="require.js">
+            
+        </script>
+        
+    </body>
+</html>
