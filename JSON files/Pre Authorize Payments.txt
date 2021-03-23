@@ -1,0 +1,54 @@
+REQUEST
+
+{
+  "amount": {
+    "ice": 1,
+    "iva": 0,
+    "subtotalIva": 0,
+    "subtotalIva0": 0.14,
+    "currency": "USD"
+  },
+  "name": "Arley",
+  "lastName": "Gutierrez",
+  "email": "aj@kushkipagos.com",
+  "fullResponse": true
+}
+
+RESPONSE
+
+{
+  "details": {
+    "acquirerBank": "Banco peru",
+    "approvalCode": "000000",
+    "approvedTransactionAmount": 1.14,
+    "binCard": "424242",
+    "binInfo": {
+      "type": "credit"
+    },
+    "cardCountry": "United States of America",
+    "cardHolderName": "Arley Gutierrez",
+    "created": 1616459544,
+    "currencyCode": "USD",
+    "fullResponse": true,
+    "ivaValue": 0,
+    "lastFourDigits": "4242",
+    "merchantId": "20000000101146714000",
+    "merchantName": "Prueba kushki",
+    "paymentBrand": "VISA",
+    "processorBankName": "0032~BANCO INTERNACIONAL",
+    "processorId": "1000000889906018361816164331313",
+    "processorName": "Bluesnap Processor",
+    "requestAmount": 1.14,
+    "responseCode": "000",
+    "rules": [],
+    "subtotalIva": 0,
+    "subtotalIva0": 0.14,
+    "syncMode": "online",
+    "transactionId": "804269427216613439",
+    "transactionReference": "1dc1e141-16c0-499c-80c7-2b67f2f0a379",
+    "transactionStatus": "APPROVAL",
+    "transactionType": "PREAUTHORIZATION"
+  },
+  "ticketNumber": "919071457944204947",
+  "transactionReference": "1dc1e141-16c0-499c-80c7-2b67f2f0a379"
+}

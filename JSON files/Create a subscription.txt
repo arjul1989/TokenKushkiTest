@@ -1,0 +1,38 @@
+REQUEST
+
+{
+  "token": "0d6a1d1e269e4ceaa919b7aecc4421fa",
+  "planName": "Premium",
+  "periodicity": "monthly",
+  "contactDetails": {
+    "documentType": "CC",
+    "documentNumber": "1009283738",
+    "email": "test@test.com",
+    "firstName": "Diego",
+    "lastName": "Cadena",
+    "phoneNumber": "+593988734644"
+  },
+  "amount": {
+    "subtotalIva": 1,
+    "subtotalIva0": 0,
+    "ice": 0,
+    "iva": 0.14,
+    "currency": "USD"
+  },
+  "startDate": "2018-09-25",
+  "metadata": {
+    "plan": {
+      "fitness": {
+        "cardio": "include",
+        "rumba": "include",
+        "pool": "include"
+      }
+    }
+  }
+}
+
+RESPONSE
+
+{
+  "subscriptionId": "1616459544817000"
+}

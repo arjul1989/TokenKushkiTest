@@ -1,0 +1,248 @@
+REQUEST
+
+GET https://api-uat.kushkipagos.com/analytics/v1/transactions-list?from=2021-03-22T00:00:01&to=2021-03-22T23:59:00
+
+Headers:
+  Private-Merchant-Id: 25c3e1265ca34db9860363323a43182b
+
+Body:
+  undefined
+
+RESPONSE
+
+
+  
+  {
+  "data": [
+    {
+      "acquirer_bank": "Banco peru",
+      "approval_code": null,
+      "approved_transaction_amount": 0,
+      "bin_card": "424242",
+      "card_country": "United States of America",
+      "card_country_code": "US",
+      "card_holder_name": "Arley Gutierrez",
+      "card_type": "Credit",
+      "contact_details": {
+        "document_number": "1009283738",
+        "document_type": "CC",
+        "email": "test@test.com",
+        "first_name": "Diego",
+        "last_name": "Cadena",
+        "phone_number": "+593988734644"
+      },
+      "country": "Peru",
+      "created": "2021-03-23T00:45:56.685Z",
+      "credential_alias": "test",
+      "credential_id": "3835a3ba770f45c4b1fe7585008a1339",
+      "currency_code": "PEN",
+      "foreign_card": true,
+      "ice_value": 0,
+      "issuing_bank": null,
+      "iva_value": 0,
+      "last_four_digits": "4242",
+      "masked_credit_card": "424242XXXXXX4242",
+      "merchant_id": "20000000101146714000",
+      "merchant_name": "Prueba kushki",
+      "metadata": {},
+      "payment_brand": "Visa",
+      "payment_method": "card",
+      "processor_id": "1000000889906018361816164331313",
+      "processor_name": "Bluesnap Processor",
+      "processor_type": "gateway",
+      "provider": "kushki",
+      "request_amount": 600,
+      "response_code": "205",
+      "response_text": "Tipo de moneda no válida",
+      "security": {
+        "ip": "190.27.88.177",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "whitelist": false
+      },
+      "string_metadata": "{}",
+      "subscription_id": "1616459544817000",
+      "subscription_metadata": {
+        "plan": {
+          "fitness": {
+            "cardio": "include",
+            "pool": "include",
+            "rumba": "include"
+          }
+        }
+      },
+      "subscription_trigger": "onDemand",
+      "subtotal_iva": 0,
+      "subtotal_iva0": 600,
+      "transaction_id": "952107560061036124",
+      "transaction_reference": "6893dbbf-4cc6-4b7e-8caa-59b16c4bc557",
+      "transaction_status": "DECLINED",
+      "transaction_type": "SALE"
+    },
+    {
+      "acquirer_bank": "Banco peru",
+      "approval_code": "000000",
+      "approved_transaction_amount": 1.14,
+      "bin_card": "424242",
+      "card_country": "United States of America",
+      "card_country_code": "US",
+      "card_holder_name": "Arley Gutierrez",
+      "card_type": "Credit",
+      "contact_details": {
+        "document_number": "1009283738",
+        "document_type": "CC",
+        "email": "test@test.com",
+        "first_name": "Diego",
+        "last_name": "Cadena",
+        "phone_number": "+593988734644"
+      },
+      "country": "Peru",
+      "created": "2021-03-23T00:47:52.242Z",
+      "credential_alias": "test",
+      "credential_id": "3835a3ba770f45c4b1fe7585008a1339",
+      "currency_code": "USD",
+      "foreign_card": true,
+      "ice_value": 1,
+      "issuing_bank": null,
+      "iva_value": 0,
+      "last_four_digits": "4242",
+      "masked_credit_card": "424242XXXXXX4242",
+      "merchant_id": "20000000101146714000",
+      "merchant_name": "Prueba kushki",
+      "metadata": {},
+      "payment_brand": "Visa",
+      "payment_method": "card",
+      "processor_id": "1000000889906018361816164331313",
+      "processor_name": "Bluesnap Processor",
+      "processor_type": "gateway",
+      "provider": "kushki",
+      "request_amount": 1.14,
+      "response_code": "000",
+      "response_text": "Transacción aprobada",
+      "security": {
+        "ip": "190.27.88.177",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "whitelist": false
+      },
+      "string_metadata": "{}",
+      "subscription_id": "1616459544817000",
+      "subscription_metadata": {
+        "plan": {
+          "fitness": {
+            "cardio": "include",
+            "pool": "include",
+            "rumba": "include"
+          }
+        }
+      },
+      "subscription_trigger": "onDemand",
+      "subtotal_iva": 0,
+      "subtotal_iva0": 0.14,
+      "ticket_number": "919071457944204947",
+      "transaction_id": "804269427216613439",
+      "transaction_reference": "1dc1e141-16c0-499c-80c7-2b67f2f0a379",
+      "transaction_status": "APPROVAL",
+      "transaction_type": "PREAUTHORIZATION"
+    },
+    {
+      "approved_transaction_amount": 1.14,
+      "aurus_ticket_number": "919071457944204947",
+      "bin_card": "424242",
+      "card_holder_name": "Arley Gutierrez",
+      "card_type": "Credit",
+      "contact_person": "Arley Julian",
+      "country": "Peru",
+      "created": "2021-03-23T00:59:35.744Z",
+      "currency_code": "USD",
+      "email": "arjul1989@gmail.com",
+      "foreign_card": true,
+      "historical": [
+        {
+          "approval_code": "000000",
+          "approved_transaction_amount": 1.14,
+          "bin_card": "424242",
+          "card_holder_name": "Arley Gutierrez",
+          "card_type": "Credit",
+          "contact_person": "Arley Julian",
+          "country": "Peru",
+          "created": "2021-03-23T00:59:21.254Z",
+          "currency_code": "USD",
+          "email": "arjul1989@gmail.com",
+          "foreign_card": true,
+          "ice_value": 1,
+          "iva_value": 0,
+          "last_four_digits": "4242",
+          "masked_credit_card": "424242XXXXXX4242",
+          "merchant_id": "20000000101146714000",
+          "merchant_name": "Prueba kushki",
+          "nit": "1234567890",
+          "payment_brand": "Visa",
+          "payment_method": "card",
+          "processor_bank_name": "0032~BANCO INTERNACIONAL",
+          "processor_id": "1000000889906018361816164331313",
+          "processor_merchant_id": "543210",
+          "processor_name": "Bluesnap Processor",
+          "processor_private_id": "1000000889905432548216164331313",
+          "processor_type": "gateway",
+          "request_amount": 1.14,
+          "response_code": "000",
+          "response_text": "Transacción aprobada",
+          "sale_ticket_number": "919071457944204947",
+          "subscription_id": "1616459544817000",
+          "subscription_trigger": "onDemand",
+          "subtotal_iva": 0,
+          "subtotal_iva0": 0.14,
+          "sync_mode": "online",
+          "terminal_id": null,
+          "ticket_number": "661616461161157814",
+          "transaction_id": "1616461161156623951",
+          "transaction_reference": "1dc1e141-16c0-499c-80c7-2b67f2f0a379",
+          "transaction_status": "INITIALIZED",
+          "transaction_type": "VOID",
+          "visibility": "visible"
+        }
+      ],
+      "ice_value": 1,
+      "iva_value": 0,
+      "last_four_digits": "4242",
+      "masked_credit_card": "424242XXXXXX4242",
+      "merchant_id": "20000000101146714000",
+      "merchant_name": "Prueba kushki",
+      "metadata": {},
+      "nit": "1234567890",
+      "payment_brand": "Visa",
+      "payment_method": "card",
+      "processor_id": "1000000889906018361816164331313",
+      "processor_merchant_id": "543210",
+      "processor_name": "Bluesnap Processor",
+      "processor_private_id": "1000000889905432548216164331313",
+      "processor_type": "gateway",
+      "request_amount": 1.14,
+      "response_code": "000",
+      "response_text": "Transacción aprobada",
+      "sale_ticket_number": "919071457944204947",
+      "subscription_id": "1616459544817000",
+      "subscription_metadata": {
+        "plan": {
+          "fitness": {
+            "cardio": "include",
+            "pool": "include",
+            "rumba": "include"
+          }
+        }
+      },
+      "subscription_trigger": "onDemand",
+      "subtotal_iva": 0,
+      "subtotal_iva0": 0.14,
+      "sync_mode": "online",
+      "terminal_id": null,
+      "ticket_number": "661616461161157814",
+      "transaction_id": "804269427216613439",
+      "transaction_reference": "b53d03a6-550e-4aa9-8340-fe889f46fd1e",
+      "transaction_status": "APPROVAL",
+      "transaction_type": "VOID",
+      "visibility": "visible",
+      "void_ticket_number": "661616461161157814"
+    }
+  ],
+  "total": 3
+}

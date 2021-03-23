@@ -1,0 +1,20 @@
+REQUEST
+
+{
+  "card": {
+    "name": "Arley Gutierrez",
+    "number": "4242424242424242",
+    "expiryMonth": "03",
+    "expiryYear": "19",
+    "cvv": "071"
+  },
+  "currency": "USD"
+}
+
+
+RESPONSE
+
+{
+  "token": "5167d526fdde487dbc050fb0f5e565df"
+}
+

@@ -1,0 +1,50 @@
+REQUEST
+
+GET https://api-uat.kushkipagos.com/subscriptions/v1/card/search/1616459544817000
+
+Headers:
+  Private-Merchant-Id: 25c3e1265ca34db9860363323a43182b
+
+Body:
+  undefined
+
+RESPONSE
+
+{
+  "amount": {
+    "currency": "USD",
+    "ice": 0,
+    "iva": 0.14,
+    "subtotalIva": 1,
+    "subtotalIva0": 0
+  },
+  "bin": "424242",
+  "cardHolderName": "Arley Gutierrez",
+  "cardType": "credit",
+  "contactDetails": {
+    "documentNumber": "1009283738",
+    "documentType": "CC",
+    "email": "test@test.com",
+    "firstName": "Diego",
+    "lastName": "Cadena",
+    "phoneNumber": "+593988734644"
+  },
+  "created": 1616459544,
+  "lastFourDigits": "4242",
+  "maskedCardNumber": "424242XXXXXX4242",
+  "merchantId": "20000000101146714000",
+  "metadata": {
+    "plan": {
+      "fitness": {
+        "cardio": "include",
+        "pool": "include",
+        "rumba": "include"
+      }
+    }
+  },
+  "paymentBrand": "VISA",
+  "periodicity": "monthly",
+  "planName": "Premium",
+  "startDate": 1537833600,
+  "subscriptionId": "1616459544817000"
+}
